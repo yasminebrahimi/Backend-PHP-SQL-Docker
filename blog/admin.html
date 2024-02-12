@@ -1,0 +1,44 @@
+<!-- Existing HTML code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head content -->
+</head>
+<body>
+
+<!-- Main blog section -->
+<section class="main-blog">
+    <!-- Content -->
+</section>
+
+<!-- Admin control panel section -->
+<section class="admin-panel">
+    <h2>Admin Control Panel</h2>
+    <form action="admin.php" method="POST">
+        <h3>Delete Section</h3>
+        <label for="delete-id">Section ID to Delete:</label>
+        <input type="text" id="delete-id" name="id">
+        <button type="submit" name="delete">Delete</button>
+    </form>
+
+    <form action="admin.php" method="POST">
+        <h3>Hide Section</h3>
+        <label for="hide-id">Section ID to Hide:</label>
+        <input type="text" id="hide-id" name="id">
+        <button type="submit" name="hide">Hide</button>
+    </form>
+
+    <form action="admin.php" method="POST">
+        <h3>Edit Section</h3>
+        <label for="edit-id">Section ID to Edit:</label>
+        <input type="text" id="edit-id" name="id">
+        <label for="edit-title">New Title:</label>
+        <input type="text" id="edit-title" name="title">
+        <label for="edit-content">New Content:</label>
+        <textarea id="edit-content" name="content"></textarea>
+        <button type="submit" name="edit">Edit</button>
+    </form>
+</section>
+
+</body>
+</html>

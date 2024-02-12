@@ -1,0 +1,203 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #FAF9F6;
+    height: 200vh;
+}
+
+
+.articleBlog {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.articleBlog h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.articleBlog img {
+    width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.articleBlog p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+
+.articleBlog strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.whyUsSection h1{
+    background-color: #FF9209;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 3%;
+    font-size: 30px;
+    color: #333;
+}
+  .whyUs {
+    display: flex;
+    justify-content: space-around; 
+    background-color: #FF9209; 
+    padding: 20px;
+  }
+  
+  .whyUs div {
+    flex: 1; 
+    text-align: center; 
+  }
+  
+
+  .whyUs img {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  .whyUs h3 {
+    color: #333; 
+  }
+  
+  .whyUs p {
+    color: #333; 
+  }
+
+  
+  .main-footer {
+    background-color: #FFD099; 
+    color: #333; 
+    min-height: 250px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 20px;
+  }
+  
+
+
+  .textFooter {
+    flex: 2; 
+  }
+  
+  .getInTouch,
+  .links {
+    flex: 1; 
+  }
+  
+  
+  h4, h6 {
+    color: #333; 
+  }
+.hyperLinks{
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin: 5% auto;
+  }
+  
+a{
+    color: #333;
+}
+
+.cta{
+    margin-top: 3%;
+}
+
+
+
+  a:hover {
+    color: #FF6C22;
+  }
+  
+
+  #respond {
+    margin: 5% 10% 5% 10%;
+    border-top :1px solid #FF6C22;
+
+  }
+  
+  #respond input[type='text'],
+  #respond input[type='email'],
+  #respond textarea {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+  
+    border: 1px solid #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+  
+    line-height: 1.4em;
+  }
+
+
+
+ 
+  
+  .shareit {
+    position: fixed;
+    top: 150px;
+  }
+  
+  .shareit a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    opacity: 0.75;
+    transition: opacity 0.15s linear;
+    text-decoration: none;
+  }
+  
+  .shareit a:hover {
+    opacity: 1;
+  }
+  
+  .facebook {
+     background: #3b5998;
+  }
+  
+  .twitter {
+      background: #55acee;
+  }
+  
+  .linkedin {
+    background: #0077b5;
+  }
+  
+  .reddit {
+      background: #FF4500;
+  }
+  
+  .tumblr {
+      background: #000000;
+  }
+  
+  .pinterest {
+      background: #cb2027;
+  }
